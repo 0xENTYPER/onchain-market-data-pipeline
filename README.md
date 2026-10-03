@@ -297,6 +297,12 @@ npm run build
 
 This reference uses free public market-data endpoints and a placeholder KV namespace. It does not claim production SLA, audit status, token safety, or valuation accuracy. Provider terms and rate limits remain the responsibility of the deployer.
 
+## Related work
+
+- [multi-chain-token-resolver](https://github.com/0xENTYPER/multi-chain-token-resolver) focuses on pair selection, token identity, and capitalization semantics.
+- [wallet-pnl-lab](https://github.com/0xENTYPER/wallet-pnl-lab) demonstrates how normalized events become auditable realized PnL.
+- [PNLFlex](https://github.com/0xENTYPER/pnlflex) provides the product context for transparent market and wallet data.
+
 ## Author
 
 Built by [0xENTYPER](https://github.com/0xENTYPER).
