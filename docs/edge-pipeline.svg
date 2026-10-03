@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="t d">
+  <title id="t">Onchain market data edge pipeline</title><desc id="d">A Cloudflare Worker serves fresh or stale cache data while refreshing multiple market providers in the background.</desc>
+  <rect width="1200" height="500" fill="#0d1117"/><circle cx="1000" cy="70" r="210" fill="#2d1b0f" opacity=".45"/>
+  <text x="60" y="68" fill="#fff" font-family="Inter,Arial" font-size="34" font-weight="800">MARKET DATA THAT DEGRADES HONESTLY.</text>
+  <text x="60" y="106" fill="#9aa5b1" font-family="Inter,Arial" font-size="18">Fast edge responses, visible freshness and independent provider failure.</text>
+  <rect x="60" y="158" width="220" height="188" rx="8" fill="#141b23" stroke="#394553"/>
+  <text x="82" y="192" fill="#f59e42" font-family="monospace" font-size="13" font-weight="700">REQUEST</text><text x="82" y="234" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="700">Token snapshot</text><text x="82" y="274" fill="#9aa5b1" font-family="monospace" font-size="14">base / 0x4200...</text><text x="82" y="310" fill="#9aa5b1" font-family="monospace" font-size="14">requestId · 8f2...</text>
+  <path d="M280 252H340" stroke="#f59e42" stroke-width="2"/><path d="M332 244L340 252L332 260" fill="none" stroke="#f59e42" stroke-width="2"/>
+  <rect x="340" y="142" width="248" height="220" rx="8" fill="#141b23" stroke="#f59e42"/>
+  <text x="362" y="178" fill="#f59e42" font-family="monospace" font-size="13" font-weight="700">CLOUDFLARE WORKER</text><text x="362" y="220" fill="#fff" font-family="Inter,Arial" font-size="20" font-weight="700">Cache policy</text>
+  <rect x="362" y="242" width="62" height="32" rx="5" fill="#18362b"/><text x="393" y="263" text-anchor="middle" fill="#67e0ae" font-family="monospace" font-size="12">FRESH</text>
+  <rect x="434" y="242" width="62" height="32" rx="5" fill="#3a2e18"/><text x="465" y="263" text-anchor="middle" fill="#f7c56d" font-family="monospace" font-size="12">STALE</text>
+  <rect x="506" y="242" width="60" height="32" rx="5" fill="#272d35"/><text x="536" y="263" text-anchor="middle" fill="#c0c8d0" font-family="monospace" font-size="12">MISS</text>
+  <text x="362" y="308" fill="#9aa5b1" font-family="Inter,Arial" font-size="14">stale → respond now</text><text x="362" y="334" fill="#9aa5b1" font-family="Inter,Arial" font-size="14">refresh → waitUntil()</text>
+  <path d="M588 252H648" stroke="#f59e42" stroke-width="2"/><path d="M640 244L648 252L640 260" fill="none" stroke="#f59e42" stroke-width="2"/>
+  <rect x="648" y="142" width="220" height="220" rx="8" fill="#141b23" stroke="#394553"/>
+  <text x="670" y="178" fill="#f59e42" font-family="monospace" font-size="13" font-weight="700">PROVIDER FAN-OUT</text><rect x="670" y="202" width="176" height="54" rx="6" fill="#1b242e"/><text x="688" y="235" fill="#fff" font-family="Inter,Arial" font-size="16" font-weight="700">DexScreener</text><rect x="670" y="272" width="176" height="54" rx="6" fill="#1b242e"/><text x="688" y="305" fill="#fff" font-family="Inter,Arial" font-size="16" font-weight="700">GeckoTerminal</text>
+  <path d="M868 252H928" stroke="#f59e42" stroke-width="2"/><path d="M920 244L928 252L920 260" fill="none" stroke="#f59e42" stroke-width="2"/>
+  <rect x="928" y="158" width="212" height="188" rx="8" fill="#1b211e" stroke="#67e0ae"/>
+  <text x="950" y="192" fill="#67e0ae" font-family="monospace" font-size="13" font-weight="700">EXPLAINABLE RESULT</text><text x="950" y="234" fill="#fff" font-family="Inter,Arial" font-size="22" font-weight="700">VALIDATED</text><text x="950" y="272" fill="#67e0ae" font-family="monospace" font-size="15">cache · fresh</text><text x="950" y="302" fill="#9aa5b1" font-family="monospace" font-size="13">age · providers · warnings</text>
+  <text x="60" y="434" fill="#9aa5b1" font-family="monospace" font-size="13">WORKERS · KV · STALE-WHILE-REVALIDATE</text><text x="1140" y="434" text-anchor="end" fill="#fff" font-family="monospace" font-size="13">BUILT BY 0xENTYPER</text>
+</svg>
